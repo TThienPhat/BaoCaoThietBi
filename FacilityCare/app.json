@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "FacilityCare",
+    "slug": "facilitycare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "facilitycare",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cho phép FacilityCare chụp ảnh sự cố."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Cho phép FacilityCare xác định vị trí sự cố."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.facilitycare.app"
+    }
+  }
+}
